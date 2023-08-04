@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        {{URL}}
+        <a :href="URL">Go to Youtube</a>
+    </div>
+
+    <script>
+        const app=Vue.createApp({
+            data () {
+                return {
+                    URL: "https://www.youtube.com/watch?v=GWRvrSqnFbM&list=PL4cUxeGkcC9hYYGbV60Vq3IXYNfDk8At1&index=4",
+                }
+            }
+        })
+        app.mount('#app');
+    </script>
+</body>
+</html>
