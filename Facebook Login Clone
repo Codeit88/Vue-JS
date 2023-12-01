@@ -8,8 +8,103 @@
     <link rel="stylesheet" href="style.css">
 
     <style>
+
 body{
 background-color:rgba(238, 235, 235, 0.68) ;
+}
+
+form #signup2{
+    margin-top: 41px;
+    width: 57%;
+    border-radius: 5px;
+    border: 1px solid;
+    background-color: #28bd0a;
+    font-size: 17px;
+    color: white;
+    padding: 12px;
+    margin-left: 95px;
+    margin-bottom: 30px;
+}
+
+.end{
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+.genders input{
+    background-color: #eceaea;
+    padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 120px;
+    margin-top: 2px;
+    column-gap: 5px;
+}
+
+.dobs input{
+    background-color: #eceaea;
+    padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 120px;
+    margin-top: 2px;
+    column-gap: 5px;
+}
+
+.dob,.gender{
+    font-size: 14px;
+    margin-top:30px;
+}
+
+.pdets input{
+    background-color: #eceaea;
+    padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 96%;
+}
+
+.pdets{
+    margin-top: 15px;
+    row-gap: 8px;
+}
+
+.name input{
+    background-color: #eceaea;
+    padding:8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 200px;
+}
+
+.credBox2{
+    margin:15px
+}
+
+.dob{
+    column-gap: 2px;
+}
+
+.pdets{
+    display: flex;
+    flex-direction: column;
+}
+
+.intials h1,p{
+    
+    margin-TOP: 4px;
+    margin-bottom: 0;
+}
+
+.intials{
+    margin-left: 15px;
+}
+
+.innerBox{
+    border-radius: 7px;
+    background-color: white;
+    box-shadow:0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
 }
 
 .credBox #acc{
@@ -100,7 +195,7 @@ a {
     column-gap: 80px;
 }
 
-    
+
     </style>
 </head>
 <body>
